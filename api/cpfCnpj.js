@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   // Aceita o parâmetro como 'documento', 'cpf' ou 'cnpj' para ficar bem flexível
-  const entrada = req.query.documento || req.query.cpf || req.query.cnpj || req.query.cpfCnpj || '';
+  const entrada = req.query.documento || req.query.cpf || req.query.cnpj || '';
   
   // Remove tudo o que não for número
   const apenasNumeros = entrada.replace(/\D/g, '');
