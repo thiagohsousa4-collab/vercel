@@ -1,18 +1,5 @@
 {
-  "name": "meu-utils-api",
+  "name": "public-utils-api",
   "version": "1.0.0",
-  "description": "Utilities API for Brazilian documents and phone numbers validation and formatting",
-  "main": "api/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "cpf",
-    "cnpj",
-    "telefone",
-    "validation",
-    "formatter"
-  ],
-  "author": "",
-  "license": "MIT"
+  "type": "module"
 }
